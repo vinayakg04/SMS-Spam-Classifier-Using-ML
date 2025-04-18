@@ -24,3 +24,30 @@ This project aims to build a robust spam detection system using a dataset of lab
 
 ## 📂 Project Structure
 
+
+---
+
+## 🛠️ Features
+
+- Text preprocessing (lowercasing, punctuation removal, stopword removal, stemming)
+- Exploratory Data Analysis (word clouds, spam/ham distribution)
+- Vectorization using CountVectorizer & TF-IDF
+- Model training & evaluation (accuracy, precision, recall, F1-score)
+- Save and reuse trained models
+
+---
+
+## 📊 Results
+
+Achieved **over 98% accuracy** with Multinomial Naive Bayes after optimizing the preprocessing pipeline.
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/yourusername/SMS-Spam-Classifier.git
+cd SMS-Spam-Classifier
+pip install -r requirements.txt
+jupyter notebook notebooks/SMS_Spam_Classifier.ipynb
+
